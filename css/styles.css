@@ -32,12 +32,12 @@ body {
 
 .header {
     color: #2e2f42;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header{
     display:flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -68,6 +68,7 @@ body {
         flex-direction: row;
         gap: 40px;
     margin-right: 232px;
+    padding: 24px 0;
 }
 .header-menu-item{
     padding: 24px 0;
@@ -119,7 +120,6 @@ body {
 }
 
 .container-hero{
-    padding: 188px 472px 196px 472px;
     padding: 188px 0;
 }
 .hero-title {
@@ -179,7 +179,7 @@ body {
 .container-features{
     width: 1128px;
     height: 104px;
-    padding: 120px 0
+    padding: 120px 0;
     
 }
 .features-menu-list {
@@ -191,8 +191,6 @@ body {
 .features-list{
     margin-right: 24px;
     width: calc((100%-72px)/4);
-    width: 264px;
-    height: 104px;
     display: flex;
         align-items: flex-start;
         justify-content: flex-start;
