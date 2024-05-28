@@ -60,9 +60,6 @@ body {
     display: flex;
     align-items: center;
 }
-.header-menu-item{
-    padding: 24px 0;
-}
 .header-menu-list {
     display: flex;
     align-items: flex-start;
