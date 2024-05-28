@@ -179,7 +179,6 @@ body {
 
 
 .features-list{
-    gap: 8px;
     width: calc((100% - 72px) / 4);
     
 }
