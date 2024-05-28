@@ -173,7 +173,10 @@ body {
 .features-menu-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
+
 
 .features-list{
     margin-right: 24px;
@@ -182,11 +185,6 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
-    
-}
-.features-list:last-child{
-    margin-right: 0px;
     width: calc((100% - 72px) / 4);
 }
 
