@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +21,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container container-header">
+      <div class="container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo"
             >Web<span class="header-logo-cursive">Studio</span></a
@@ -50,23 +57,16 @@
     <main>
       <!-- section 1 -->
       <section class="hero">
-        <div class="container container-hero">
+        <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
       <!-- section 2 -->
       <section class="features">
-        <div class="container container-features">
+        <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-menu-list">
-            <li class="features-list">
-              <h3 class="features-item">Strategy</h3>
-              <p class="features-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
             <li class="features-list">
               <h3 class="features-item">Punctuality</h3>
               <p class="features-text">
@@ -93,7 +93,7 @@
       </section>
       <!-- section 3 -->
       <section class="team">
-        <div class="container container-team">
+        <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-card">
             <li class="team-card-list">
@@ -141,7 +141,7 @@
       </section>
       <!-- Section4 -->
       <section class="portfolio">
-        <div class="container container-portfolio">
+        <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-card">
             <li class="portfolio-list">
@@ -150,6 +150,7 @@
                 alt="Banking App"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Banking App</h3>
               <p class="portfolio-text">App</p>
@@ -160,6 +161,7 @@
                 alt="Cashless Payment"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Cashless Payment</h3>
               <p class="portfolio-text">Marketing</p>
@@ -170,6 +172,7 @@
                 alt="Meditation"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Meditation</h3>
               <p class="portfolio-text">App</p>
@@ -180,6 +183,7 @@
                 alt="Taxi Service"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Taxi Service</h3>
               <p class="portfolio-text">Marketing</p>
@@ -190,6 +194,7 @@
                 alt="Screen Illustrations"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Screen Illustrations</h3>
               <p class="portfolio-text">Design</p>
@@ -200,6 +205,7 @@
                 alt="Online Courses"
                 width="360"
                 height="300"
+                class="portfolio-image"
               />
               <h3 class="portfolio-item">Online Courses</h3>
               <p class="portfolio-text">Marketing</p>
@@ -211,7 +217,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container container-footer">
+      <div class="container">
         <a class="footer-logo" href="./index.html"
           >Web<span class="footer-logo-cursive">Studio</span>
         </a>
