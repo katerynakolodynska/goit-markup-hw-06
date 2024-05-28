@@ -49,6 +49,9 @@ body {
             gap: 0px;
             margin-right: 76px;
 }
+.container-header{
+    display: flex;
+}
 
 .header-logo-cursive {
     color: #2e2f42;
@@ -58,7 +61,7 @@ body {
     align-items: center;
 }
 .header-menu-item{
-    /* padding: 24px 0; */
+    padding: 24px 0;
 }
 .header-menu-list {
     display: flex;
@@ -210,6 +213,9 @@ body {
     background-color: #f4f4fd;
     padding: 120px 0;
 }
+.container-team{
+    padding: 32px 0;
+}
 
 .team-title {
     font-weight: 700;
@@ -288,6 +294,7 @@ body {
 .portfolio-image{
     margin: 0 auto;
     margin-bottom: 32px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item {
