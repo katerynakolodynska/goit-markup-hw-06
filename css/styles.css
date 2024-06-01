@@ -90,9 +90,6 @@ body {
     gap: 40px;
     padding: 24px 0;
 }
-.header-adress-item{
-    margin-right: 40px;
-}
 .header-adress-link {
     font-weight: 400;
     font-size: 16px;
@@ -121,8 +118,9 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 48px;
-    margin:0 auto;
-    max-width: 496px;
+    width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-button {
