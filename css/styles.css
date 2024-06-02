@@ -268,8 +268,8 @@ body {
     fill: #f4f4fd;
 }
 .team-icon-link:hover,
-.team-icon-link:focus {
-    background-color: #404bbf;
+.team-icon-link:focus{
+    background-color:#404bbf;
 }
 
 .team-title {
