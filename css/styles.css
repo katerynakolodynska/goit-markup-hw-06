@@ -885,6 +885,9 @@ body {
        .icon-menu-btn {
            display: none;
        }
+       .mob-menu{
+        display: none;
+       }
 
        /* -------hero----------------------- */
        .hero {
