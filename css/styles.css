@@ -92,6 +92,11 @@ body {
     justify-content: space-between;
     z-index: 999;
 }
+.is-open{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
 
 .mob-close {
     display: flex;
@@ -170,7 +175,7 @@ body {
     gap: 24px;
 }
 
-.mob-address-link.psevdo {
+.mob-address-link.header-menu-link-studio {
     color: #4d5ae5;
 }
 
